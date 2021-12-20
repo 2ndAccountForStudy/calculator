@@ -7,9 +7,9 @@ on:
   pull_request: {}
 
 jobs:
-  Windows:
+  build:
     name: build-windows
-    runs-on: [windows]
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
